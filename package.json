@@ -1,0 +1,28 @@
+{
+	"name": "big-integer-max",
+	"version": "0.0.1",
+	"description": "Given two valid integers in string form, return the larger of the two.",
+	"author": "Jordan Harband",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ljharb/big-integer-max"
+	},
+	"keywords": [
+		"integer",
+		"big",
+		"maximum",
+		"number"
+	],
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tape": "~2.1.0"
+	},
+	"license": "MIT",
+	"readmeFilename": "README.md"
+}
+
