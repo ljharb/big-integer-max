@@ -1,5 +1,7 @@
 #big-integer-max <sup>[![Version Badge][2]][1]</sup>
 
+[![npm badge][11]][1]
+
 [![Build Status][3]][4] [![dependency status][5]][6]  [![dev dependency status][7]][8]
 
 [![browser support][9]][10]
@@ -39,4 +41,5 @@ Simply run `npm test` in the repo.
 [8]: https://david-dm.org/ljharb/big-integer-max#info=devDependencies
 [9]: https://ci.testling.com/ljharb/big-integer-max.png
 [10]: https://ci.testling.com/ljharb/big-integer-max
+[11]: https://nodei.co/npm/big-integer-max.png?downloads=true&stars=true
 
