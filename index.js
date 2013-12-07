@@ -23,38 +23,40 @@ var digits = /^\-?[0-9]+$/;
 var leadingZeroes = /^\-?0+[^0]+$/;
 
 var bigIntegerMax = function bigIntegerMaximum(numberA, numberB) {
-	var bothNegative = false;
+	var aNegative = numberA.charAt(0) === '-';
+	var bNegative = numberB.charAt(0) === '-';
+	var bothNegative = aNegative && bNegative;
 	var largest = numberA;
-	if (numberA.charAt(0) === '-' && numberB.charAt(0) === '-') {
-		numberA = numberA.slice(1);
-		numberB = numberB.slice(1);
-		bothNegative = true;
-	}
+
 	if (numberA !== numberB) {
 		var lengthA = numberA.length;
 		var lengthB = numberB.length;
-		if (numberA.charAt(0) === '-' || numberB.charAt(0) === '-') {
+		if (bothNegative) {
+			if (lengthB < lengthA) {
+				// negative number with the least digits is largest
+				largest = numberB;
+			} else if (lengthA === lengthB) {
+				// lengths are the same; both negative
+				largest = numberA < numberB ? numberA : numberB;
+			}
+		} else if (aNegative || bNegative) {
 			// signs are different
-			if (numberA.charAt(0) === '-') {
+			if (aNegative) {
 				largest = numberB;
 			}
-		} else if (bothNegative && lengthB < lengthA) {
-			// negative number with the least digits is largest
-			largest = numberB;
-		} else if (!bothNegative && lengthB > lengthA) {
-			// positive number with the most digits is largest
-			largest = numberB;
-		} else if (bothNegative) {
-			// lengths are the same; both negative
-			largest = numberA < numberB ? numberA : numberB;
 		} else {
-			// lengths are the same; both positive
-			largest = numberA < numberB ? numberB : numberA;
-		}
-		if (bothNegative) {
-			largest = '-' + largest;
+			// both positive
+			if (lengthA < lengthB) {
+				// positive number with the most digits is largest
+				largest = numberB;
+			} else if (lengthA === lengthB) {
+				// lengths are the same; both positive
+				largest = numberA > numberB ? numberA : numberB;
+			}
+
 		}
 	}
+
 	return largest;
 };
 
