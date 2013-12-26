@@ -5,7 +5,9 @@
 	"author": "Jordan Harband",
 	"main": "index.js",
 	"scripts": {
-		"test": "node test.js"
+		"test": "node test.js",
+		"coverage": "covert test.js",
+		"coverage-quiet": "covert test.js --quiet"
 	},
 	"repository": {
 		"type": "git",
@@ -20,7 +22,8 @@
 	"dependencies": {
 	},
 	"devDependencies": {
-		"tape": "~2.3.2"
+		"tape": "~2.3.2",
+		"covert": "~0.2.0"
 	},
 	"testling": {
 		"files": "test.js",
