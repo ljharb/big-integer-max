@@ -27,7 +27,10 @@ test('does not allow leading zeroes', function (t) {
 test('works', function (t) {
 	t.equal(bigIntMax('1', '2'), '2', 'works with single digits');
 	t.equal(bigIntMax('-1', '2'), '2', 'works with positive and negative number');
+	t.equal(bigIntMax('-10', '-100'), '-10', 'works with negative numbers of different lengths');
+	t.equal(bigIntMax('-100', '-10'), '-10', 'works with negative numbers of different lengths');
 	t.equal(bigIntMax('10', '100'), '100', 'works with numbers of different lengths');
+	t.equal(bigIntMax('100', '10'), '100', 'works with numbers of different lengths');
 	t.equal(bigIntMax('0', '3'), '3', 'works with zero');
 	t.equal(bigIntMax('123', '123'), '123', 'works with the same value');
 	t.equal(bigIntMax('-123', '-123'), '-123', 'works with the same negative value');
