@@ -9,8 +9,7 @@ var nextTick = (function (undef) {
 var toString = Object.prototype.toString;
 
 var isFunction = function (value) {
-	var isAlert = typeof window !== 'undefined' && value === window.alert;
-	return isAlert || '[object Function]' === toString.call(value);
+	return '[object Function]' === toString.call(value);
 };
 
 /* Big Integer Maximum
