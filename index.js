@@ -1,10 +1,6 @@
 /*globals setImmediate */
 
-var nextTick = (function (undef) {
-	var p = typeof process === 'undefined' ? process : {};
-	var setI = typeof setImmediate !== 'undefined' ? setImmediate : undef;
-	return p.nextTick || setI || function setTimeoutZero(cb) { return setTimeout(cb, 0); };
-}());
+var nextTick = require('just-next-tick');
 
 var toString = Object.prototype.toString;
 
