@@ -1,6 +1,6 @@
 {
 	"name": "big-integer-max",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Given two valid integers in string form, return the larger of the two.",
 	"author": "Jordan Harband",
 	"main": "index.js",
