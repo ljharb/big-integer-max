@@ -1,5 +1,3 @@
-/*globals setImmediate */
-
 var nextTick = require('just-next-tick');
 
 var toString = Object.prototype.toString;
