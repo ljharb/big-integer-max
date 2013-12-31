@@ -45,6 +45,9 @@
 		]
 	},
 	"license": "MIT",
-	"readmeFilename": "README.md"
+	"readmeFilename": "README.md",
+	"engines": {
+		"node": ">= 0.8"
+	}
 }
 
