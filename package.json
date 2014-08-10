@@ -23,7 +23,7 @@
 		"just-next-tick": "~0.0.0"
 	},
 	"devDependencies": {
-		"tape": "~2.12.3",
+		"tape": "~2.14.0",
 		"covert": "~0.4.0"
 	},
 	"testling": {
