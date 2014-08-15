@@ -5,7 +5,7 @@
 	"author": "Jordan Harband",
 	"main": "index.js",
 	"scripts": {
-		"test": "node test.js",
+		"test": "npm run lint && node test.js",
 		"coverage": "covert test.js",
 		"coverage-quiet": "covert test.js --quiet",
 		"lint": "jscs *.js"
