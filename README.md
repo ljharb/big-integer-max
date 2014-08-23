@@ -33,11 +33,11 @@ Simply run `npm test` in the repo.
 
 [1]: https://npmjs.org/package/big-integer-max
 [2]: http://vb.teelaun.ch/ljharb/big-integer-max.svg
-[3]: https://travis-ci.org/ljharb/big-integer-max.png
+[3]: https://travis-ci.org/ljharb/big-integer-max.svg
 [4]: https://travis-ci.org/ljharb/big-integer-max
-[5]: https://david-dm.org/ljharb/big-integer-max.png
+[5]: https://david-dm.org/ljharb/big-integer-max.svg
 [6]: https://david-dm.org/ljharb/big-integer-max
-[7]: https://david-dm.org/ljharb/big-integer-max/dev-status.png
+[7]: https://david-dm.org/ljharb/big-integer-max/dev-status.svg
 [8]: https://david-dm.org/ljharb/big-integer-max#info=devDependencies
 [9]: https://ci.testling.com/ljharb/big-integer-max.png
 [10]: https://ci.testling.com/ljharb/big-integer-max
