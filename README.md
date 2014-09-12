@@ -6,7 +6,7 @@
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 
-[![browser support][9]][10]
+[![browser support][testling-png]][testling-url]
 
 Given two valid integers in string form, return the larger of the two.
 
@@ -41,7 +41,7 @@ Simply run `npm test` in the repo.
 [deps-url]: https://david-dm.org/ljharb/big-integer-max
 [dev-deps-svg]: https://david-dm.org/ljharb/big-integer-max/dev-status.svg
 [dev-deps-url]: https://david-dm.org/ljharb/big-integer-max#info=devDependencies
-[9]: https://ci.testling.com/ljharb/big-integer-max.png
-[10]: https://ci.testling.com/ljharb/big-integer-max
+[testling-png]: https://ci.testling.com/ljharb/big-integer-max.png
+[testling-url]: https://ci.testling.com/ljharb/big-integer-max
 [11]: https://nodei.co/npm/big-integer-max.png?downloads=true&stars=true
 
