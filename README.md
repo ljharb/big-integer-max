@@ -3,8 +3,8 @@
 [![npm badge][11]][npm-url]
 
 [![Build Status][travis-svg]][travis-url]
-[![dependency status][5]][6]
-[![dev dependency status][7]][8]
+[![dependency status][deps-svg]][deps-url]
+[![dev dependency status][dev-deps-svg]][dev-deps-url]
 
 [![browser support][9]][10]
 
@@ -37,10 +37,10 @@ Simply run `npm test` in the repo.
 [npm-version-svg]: http://vb.teelaun.ch/ljharb/big-integer-max.svg
 [travis-svg]: https://travis-ci.org/ljharb/big-integer-max.svg
 [travis-url]: https://travis-ci.org/ljharb/big-integer-max
-[5]: https://david-dm.org/ljharb/big-integer-max.svg
-[6]: https://david-dm.org/ljharb/big-integer-max
-[7]: https://david-dm.org/ljharb/big-integer-max/dev-status.svg
-[8]: https://david-dm.org/ljharb/big-integer-max#info=devDependencies
+[deps-svg]: https://david-dm.org/ljharb/big-integer-max.svg
+[deps-url]: https://david-dm.org/ljharb/big-integer-max
+[dev-deps-svg]: https://david-dm.org/ljharb/big-integer-max/dev-status.svg
+[dev-deps-url]: https://david-dm.org/ljharb/big-integer-max#info=devDependencies
 [9]: https://ci.testling.com/ljharb/big-integer-max.png
 [10]: https://ci.testling.com/ljharb/big-integer-max
 [11]: https://nodei.co/npm/big-integer-max.png?downloads=true&stars=true
