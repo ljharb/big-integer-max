@@ -1,6 +1,6 @@
-#big-integer-max <sup>[![Version Badge][2]][1]</sup>
+#big-integer-max <sup>[![Version Badge][2]][npm-url]</sup>
 
-[![npm badge][11]][1]
+[![npm badge][11]][npm-url]
 
 [![Build Status][3]][4] [![dependency status][5]][6]  [![dev dependency status][7]][8]
 
@@ -31,7 +31,7 @@ bigIntegerMax('1', '2', function (error, max) {
 ## Tests
 Simply run `npm test` in the repo.
 
-[1]: https://npmjs.org/package/big-integer-max
+[npm-url]: https://npmjs.org/package/big-integer-max
 [2]: http://vb.teelaun.ch/ljharb/big-integer-max.svg
 [3]: https://travis-ci.org/ljharb/big-integer-max.svg
 [4]: https://travis-ci.org/ljharb/big-integer-max
