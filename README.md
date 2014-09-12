@@ -1,6 +1,6 @@
 #big-integer-max <sup>[![Version Badge][npm-version-svg]][npm-url]</sup>
 
-[![npm badge][11]][npm-url]
+[![npm badge][npm-badge-png]][npm-url]
 
 [![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
@@ -43,5 +43,5 @@ Simply run `npm test` in the repo.
 [dev-deps-url]: https://david-dm.org/ljharb/big-integer-max#info=devDependencies
 [testling-png]: https://ci.testling.com/ljharb/big-integer-max.png
 [testling-url]: https://ci.testling.com/ljharb/big-integer-max
-[11]: https://nodei.co/npm/big-integer-max.png?downloads=true&stars=true
+[npm-badge-png]: https://nodei.co/npm/big-integer-max.png?downloads=true&stars=true
 
