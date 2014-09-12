@@ -2,7 +2,9 @@
 
 [![npm badge][11]][npm-url]
 
-[![Build Status][3]][4] [![dependency status][5]][6]  [![dev dependency status][7]][8]
+[![Build Status][travis-svg]][travis-url]
+[![dependency status][5]][6]
+[![dev dependency status][7]][8]
 
 [![browser support][9]][10]
 
@@ -33,8 +35,8 @@ Simply run `npm test` in the repo.
 
 [npm-url]: https://npmjs.org/package/big-integer-max
 [npm-version-svg]: http://vb.teelaun.ch/ljharb/big-integer-max.svg
-[3]: https://travis-ci.org/ljharb/big-integer-max.svg
-[4]: https://travis-ci.org/ljharb/big-integer-max
+[travis-svg]: https://travis-ci.org/ljharb/big-integer-max.svg
+[travis-url]: https://travis-ci.org/ljharb/big-integer-max
 [5]: https://david-dm.org/ljharb/big-integer-max.svg
 [6]: https://david-dm.org/ljharb/big-integer-max
 [7]: https://david-dm.org/ljharb/big-integer-max/dev-status.svg
