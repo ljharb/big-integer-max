@@ -1,9 +1,11 @@
+'use strict';
+
 var nextTick = require('just-next-tick');
 
 var toStr = Object.prototype.toString;
 
 var isFunction = function (value) {
-	return '[object Function]' === toStr.call(value);
+	return toStr.call(value) === '[object Function]';
 };
 
 /* Big Integer Maximum
@@ -37,16 +39,12 @@ var bigIntegerMax = function bigIntegerMaximum(numberA, numberB) {
 			if (aNegative) {
 				largest = numberB;
 			}
-		} else {
-			// both positive
-			if (lengthA < lengthB) {
-				// positive number with the most digits is largest
-				largest = numberB;
-			} else if (lengthA === lengthB) {
-				// lengths are the same; both positive
-				largest = numberA > numberB ? numberA : numberB;
-			}
-
+		} else /* both positive */ if (lengthA < lengthB) {
+			// positive number with the most digits is largest
+			largest = numberB;
+		} else if (lengthA === lengthB) {
+			// lengths are the same; both positive
+			largest = numberA > numberB ? numberA : numberB;
 		}
 	}
 
