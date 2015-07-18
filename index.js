@@ -1,9 +1,9 @@
 var nextTick = require('just-next-tick');
 
-var toString = Object.prototype.toString;
+var toStr = Object.prototype.toString;
 
 var isFunction = function (value) {
-	return '[object Function]' === toString.call(value);
+	return '[object Function]' === toStr.call(value);
 };
 
 /* Big Integer Maximum
