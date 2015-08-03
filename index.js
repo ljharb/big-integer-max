@@ -51,7 +51,7 @@ var bigIntegerMax = function bigIntegerMaximum(numberA, numberB) {
 	return largest;
 };
 
-var bigIntegerMaxDispatcher = function (numberA, numberB, callback) {
+var dispatcher = function (numberA, numberB, callback) {
 	if (typeof numberA !== 'string' || typeof numberB !== 'string') {
 		throw new TypeError('both arguments must be strings');
 	} else if (!digits.test(numberA) || !digits.test(numberB)) {
@@ -68,7 +68,7 @@ var bigIntegerMaxDispatcher = function (numberA, numberB, callback) {
 		return bigIntegerMax(numberA, numberB);
 	}
 };
-bigIntegerMaxDispatcher.method = bigIntegerMax;
+dispatcher.method = bigIntegerMax;
 
-module.exports = bigIntegerMaxDispatcher;
+module.exports = dispatcher;
 
