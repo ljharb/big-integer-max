@@ -34,7 +34,7 @@ bigIntegerMax('1', '2', function (error, max) {
 Simply run `npm test` in the repo.
 
 [npm-url]: https://npmjs.org/package/big-integer-max
-[npm-version-svg]: http://vb.teelaun.ch/ljharb/big-integer-max.svg
+[npm-version-svg]: http://versionbadg.es/ljharb/big-integer-max.svg
 [travis-svg]: https://travis-ci.org/ljharb/big-integer-max.svg
 [travis-url]: https://travis-ci.org/ljharb/big-integer-max
 [deps-svg]: https://david-dm.org/ljharb/big-integer-max.svg
