@@ -8,14 +8,15 @@ var isFunction = function (value) {
 	return toStr.call(value) === '[object Function]';
 };
 
-/* Big Integer Maximum
+/*
+ * Big Integer Maximum
  *
  * Pass in two strings that are otherwise valid integers, positive or negative.
  * No leading zeroes.
  */
 
-var digits = /^\-?[0-9]+$/;
-var leadingZeroes = /^\-?0+[^0]+$/;
+var digits = /^-?[0-9]+$/;
+var leadingZeroes = /^-?0+[^0]+$/;
 
 var bigIntegerMax = function bigIntegerMaximum(numberA, numberB) {
 	var aNegative = numberA.charAt(0) === '-';
@@ -61,7 +62,7 @@ var dispatcher = function (numberA, numberB, callback) {
 	}
 
 	if (isFunction(callback)) {
-		nextTick(function () {
+		return nextTick(function () {
 			callback(null, bigIntegerMax(numberA, numberB));
 		});
 	} else {
