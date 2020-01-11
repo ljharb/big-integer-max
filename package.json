@@ -3,6 +3,9 @@
 	"version": "1.0.0",
 	"description": "Given two valid integers in string form, return the larger of the two.",
 	"author": "Jordan Harband",
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"main": "index.js",
 	"scripts": {
 		"prepublish": "safe-publish-latest",
