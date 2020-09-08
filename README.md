@@ -1,4 +1,4 @@
-#big-integer-max <sup>[![Version Badge][npm-version-svg]][npm-url]</sup>
+# big-integer-max <sup>[![Version Badge][npm-version-svg]][npm-url]</sup>
 
 [![npm badge][npm-badge-png]][npm-url]
 
