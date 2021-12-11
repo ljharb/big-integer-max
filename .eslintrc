@@ -2,10 +2,4 @@
 	"root": true,
 
 	"extends": "@ljharb",
-
-	"rules": {
-		"complexity": [2, 13],
-		"max-params": [2, 3],
-		"max-statements": [2, 16]
-	}
 }

@@ -65,9 +65,8 @@ var dispatcher = function (numberA, numberB, callback) {
 		return nextTick(function () {
 			callback(null, bigIntegerMax(numberA, numberB));
 		});
-	} else {
-		return bigIntegerMax(numberA, numberB);
 	}
+	return bigIntegerMax(numberA, numberB);
 };
 dispatcher.method = bigIntegerMax;
 
