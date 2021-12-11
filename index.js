@@ -1,12 +1,7 @@
 'use strict';
 
 var nextTick = require('just-next-tick');
-
-var toStr = Object.prototype.toString;
-
-var isFunction = function (value) {
-	return toStr.call(value) === '[object Function]';
-};
+var isCallable = require('is-callable');
 
 /*
  * Big Integer Maximum
@@ -61,7 +56,7 @@ var dispatcher = function (numberA, numberB, callback) {
 		throw new TypeError('both strings must have no leading zeroes');
 	}
 
-	if (isFunction(callback)) {
+	if (isCallable(callback)) {
 		return nextTick(function () {
 			callback(null, bigIntegerMax(numberA, numberB));
 		});
