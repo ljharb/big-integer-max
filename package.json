@@ -29,7 +29,7 @@
 		"number"
 	],
 	"dependencies": {
-		"is-callable": "^1.2.4",
+		"is-callable": "^1.2.7",
 		"just-next-tick": "^0.0.0"
 	},
 	"devDependencies": {
