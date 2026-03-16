@@ -44,6 +44,10 @@ test('works', function (t) {
 	var reallySmallNumber = '-1' + String(Math.pow(2, 53));
 	var muchSmallerNumber = '-9' + String(Math.pow(2, 53));
 	t.equal(bigIntMax(reallySmallNumber, muchSmallerNumber), reallySmallNumber, 'works with numbers too large for JS to support');
+
+	t.equal(bigIntMax('2', '-1'), '2', 'works with positive first and negative second');
+	t.equal(bigIntMax('9', '1'), '9', 'works with larger positive first, same length');
+	t.equal(bigIntMax('-99', '-11'), '-11', 'works with both negative, same length, first is smaller');
 	t.end();
 });
 
